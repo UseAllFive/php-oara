@@ -125,7 +125,7 @@ class ProductsServiceResource extends apiServiceResource {
 		$params = array_merge($params, $optParams);
 		$data = $this->__call('get', array($params));
 		if ($this->useObjects()) {
-			return new Product($data);
+			return new Google_Product($data);
 		} else {
 			return $data;
 		}
@@ -164,7 +164,7 @@ class apiShoppingService extends apiService {
 	}
 }
 
-class Product extends apiModel {
+class Google_Product extends apiModel {
 	public $selfLink;
 	public $kind;
 	protected $__productType = 'ShoppingModelProductJsonV1';
