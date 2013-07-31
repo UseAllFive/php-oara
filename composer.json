@@ -1,0 +1,9 @@
+{
+    "name": "UseAllFive/php-oara",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/UseAllFive/php-oara",
+        "reference": "master"
+    },
+    "type": "library"
+}
