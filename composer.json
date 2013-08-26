@@ -1,5 +1,8 @@
 {
     "name": "UseAllFive/php-oara",
+    "require": {
+        "zendframework/zendframework1": "dev-master"
+    },
     "source": {
         "type": "git",
         "url": "https://github.com/UseAllFive/php-oara",
